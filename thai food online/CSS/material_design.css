@@ -1,0 +1,104 @@
+.name {
+  background-color: #0A69B7;
+  width: 100%;
+  height: 30px;
+  text-align: right;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.middle {
+  background-color: #2196F3;
+  width: 100%;
+  height: 60px;
+  line-height: 30px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.tabs {
+  background-color: #2196F3;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  font-weight: bold;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.container {
+  width: 270px;
+  height: 215px;
+  overflow: hidden;
+  display: inline-block;
+  transition-duration: 0.5s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  height: 240px;
+}
+
+.image_container {
+  border: 10px solid #2196F3;
+  background-color: #2196F3;
+}
+
+.text_container{
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  background-color: #0A69B7;
+}
+
+.tab {
+  border-bottom: 3px solid transparent;
+  transition: all ease-in-out 0.35s;
+  text-decoration: none;
+  color: white;
+}
+
+.tab:hover {
+    border-color: white;
+}
+
+.tab:active {
+    border-color: white;
+}
+
+html, body {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  border: 0;
+  background-color: #EEEEEF;
+  font-family: "Verdana";
+  color: white;
+  scroll-behavior: smooth;
+}
+
+.menu {
+  border: none;
+  margin: none;
+  border-radius: 0px;
+  border: 0;
+  height: 50px;
+  width: 70px;
+  background-color: white;
+  transition: 0.25s;
+}
+
+.menu:hover {
+  border-radius: 0px;
+  border: 0;
+  height: 50px;
+  width: 70px;
+  background-color: #DDDDDE;
+
+}
