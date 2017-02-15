@@ -1,0 +1,19 @@
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.titanic {
+  float: none;
+}
+
+.lower {
+  bottom: 10px;
+}
+
+.space {
+  margin-right: 6%;
+}

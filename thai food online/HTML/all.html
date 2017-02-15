@@ -3,18 +3,22 @@
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="../CSS/material_design.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/standard.css">
+
+    <script src="../JS/scroll.js"></script>
+
     <title>Thaifoon - Thai food delivered.</title>
   </head>
 
   <body>
     <div>
-      <div class="middle">
+      <div id="-1" class="middle">
         <!-- Home and page title-->
         <button class="menu" onclick="window.location='index.html'"><img src="../IMAGES/icons/home.svg"/></button>
         &nbsp;&nbsp;&nbsp;&nbsp;Thaifoon - Thai food delivered. <!--TODO: fix alignment verticly--><!--TODO: fix spelling of todo-->
       </div>
 
-      <div class="tabs">
+      <div id="0" class="tabs">
         <!--tabs-->
         <a class="tab" href="index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
         <a class="tab" href="Products1.html">Curries</a>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -26,6 +30,11 @@
       </div>
     </div>
     <br />
+    <div class="raised_div"><!--raised div-->
+      <button class="nav" onclick="scroll_up()"><img src="../IMAGES/icons/up.svg"/></button>
+      <br />
+      <button class="lower nav" onclick="scroll_down()"><img src="../IMAGES/icons/down.svg"/></button>
+    </div>
 
     <div class="main"><!--everything else-->
 
@@ -179,7 +188,7 @@
         </div>
       </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-      <div class="container">
+      <div class="container space">
         <div class="image_container">
           <img width=250 height=170 onclick="window.location='../IMAGES/ingrediants/onion.JPG'" src="../IMAGES/ingrediants/onion.JPG"/>
         </div>
@@ -202,7 +211,7 @@
         </div>
       </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-      <div class="container">
+      <div class="container space">
         <div class="image_container">
           <img width=250 height=170 onclick="window.location='../IMAGES/ingrediants/rice.jpg'" src="../IMAGES/ingrediants/rice.jpg"/>
         </div>
