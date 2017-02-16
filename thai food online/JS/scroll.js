@@ -1,13 +1,17 @@
 //I took away the ability to scroll and replace it with my own...
 
-var area = 1;
+var area = -1;
 
 function scroll_down(){
-  area += 1;
-  window.location.hash = area;
+	if (5>area){
+		 area += 1;
+  		window.location.hash = area;
+		}
 }
 
 function scroll_up(){
-  area -= 1;
-  window.location.hash = area;
+	if (area>-1){
+ 	 area -= 1;
+  	window.location.hash = area;
+	}
 }

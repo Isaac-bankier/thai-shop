@@ -7,7 +7,6 @@
   </head>
 
   <body>
-    <script src="../JS/generate.js"></script>
     <div>
       <div class="middle">
         <!-- Home and page title-->
@@ -34,6 +33,9 @@
 			<input name="First_name" class="feedback" type="text" /><br /><br />
            Last name:<br />
            <input name="Last_name" class="feedback" type="text" /><br /><br />
+
+           What is your gender?&nbsp;&nbsp;<input type="checkbox" name="Male" value="true">Male</input>&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="Female" value="true"> Female</input><br /><br />
+
            Date of birth:<br />
            <select name="day" id="day">
              <option value="1">1</option>
@@ -84,18 +86,24 @@
              <option value="12">12</option>
            </select>
 
-          <select name="year" id="year" onload="load()">
+          <select name="year" id="year">
           </select>
          	<br />
           <br />
-          <div>What is your favourite curry?</div>
-          Red curry: <input type="radio" name="RadioGroup1" value="Red curry" id="RadioGroup1_0">
-          <br>
-          Green curry: <input type="radio" name="RadioGroup1" value="Green curry" id="RadioGroup1_1">
-          <br>
+          What is your favourite curry?<br />
+            <input type="radio" name="RadioGroup1" value="Red curry" id="RadioGroup1_0">Red curry</input>
+          <br />
+            <input type="radio" name="RadioGroup1" value="Green curry" id="RadioGroup1_1">Green curry</input>
+          <br />
+          <br />
+
+          What was your order?<br />
+          <input type="checkbox" name="curry1" value="Red"> Red curry</input><br />
+          <input type="checkbox" name="curry1" value="Green"> Green curry</input>
 
 		</form>
 
     </div>
+    <script src="../JS/generate.js"></script>
   </body>
 </html>
