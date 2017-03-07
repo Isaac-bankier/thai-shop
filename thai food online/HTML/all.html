@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html class="scroll">
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="../CSS/material_design.css">
@@ -10,7 +10,7 @@
     <title>Thaifoon - Thai food delivered.</title>
   </head>
 
-  <body>
+  <body class="scroll">
     <div>
       <div id="-1" class="middle">
         <!-- Home and page title-->
@@ -30,11 +30,6 @@
       </div>
     </div>
     <br />
-    <div class="raised_div"><!--raised div-->
-      <button class="nav" onclick="scroll_up()"><img src="../IMAGES/icons/up.svg"/></button>
-      <br />
-      <button class="lower nav" onclick="scroll_down()"><img src="../IMAGES/icons/down.svg"/></button>
-    </div>
 
     <div class="main"><!--everything else-->
 
@@ -44,6 +39,7 @@
         </div>
         <div class="text_container">
           &nbsp;&nbsp;&nbsp;Green curry
+          <button class="buy_button" onClick="window.location='curry/green.html'"><img src="../IMAGES/icons/buy.svg" /></button>
         </div>
       </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
@@ -53,6 +49,7 @@
         </div>
         <div class="text_container">
           &nbsp;&nbsp;&nbsp;Red curry
+          <button class="buy_button"><img src="../IMAGES/icons/buy.svg" /></button>
         </div>
       </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
@@ -62,6 +59,7 @@
         </div>
         <div class="text_container">
           &nbsp;&nbsp;&nbsp;Yellow curry
+          <button class="buy_button"><img src="../IMAGES/icons/buy.svg" /></button>
         </div>
       </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
@@ -71,6 +69,7 @@
         </div>
         <div class="text_container">
           &nbsp;&nbsp;&nbsp;Penang
+          <button class="buy_button"><img src="../IMAGES/icons/buy.svg" /></button>
         </div>
       </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
@@ -85,6 +84,7 @@
         </div>
         <div class="text_container">
           &nbsp;&nbsp;&nbsp;Satay curry
+          <button class="buy_button"><img src="../IMAGES/icons/buy.svg" /></button>
         </div>
       </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
@@ -94,6 +94,7 @@
         </div>
         <div class="text_container">
           &nbsp;&nbsp;&nbsp;Noodle soup
+          <button class="buy_button"><img src="../IMAGES/icons/buy.svg" /></button>
         </div>
       </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
@@ -103,6 +104,7 @@
         </div>
         <div class="text_container">
           &nbsp;&nbsp;&nbsp;Green curry
+          <button class="buy_button"><img src="../IMAGES/icons/buy.svg" /></button>
         </div>
       </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
@@ -112,6 +114,7 @@
         </div>
         <div class="text_container">
           &nbsp;&nbsp;&nbsp;Red curry
+          <button class="buy_button"><img src="../IMAGES/icons/buy.svg" /></button>
         </div>
       </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
@@ -126,6 +129,7 @@
         </div>
         <div class="text_container">
           &nbsp;&nbsp;&nbsp;Yellow curry
+          <button class="buy_button"><img src="../IMAGES/icons/buy.svg" /></button>
         </div>
       </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
@@ -135,6 +139,7 @@
         </div>
         <div class="text_container">
           &nbsp;&nbsp;&nbsp;Penang
+          <button class="buy_button"><img src="../IMAGES/icons/buy.svg" /></button>
         </div>
       </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
@@ -144,6 +149,7 @@
         </div>
         <div class="text_container">
           &nbsp;&nbsp;&nbsp;Red curry powder
+          <button class="buy_button"><img src="../IMAGES/icons/buy.svg" /></button>
         </div>
       </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
@@ -153,6 +159,7 @@
         </div>
         <div class="text_container">
           &nbsp;&nbsp;&nbsp;Green curry powder
+          <button class="buy_button"><img src="../IMAGES/icons/buy.svg" /></button>
         </div>
       </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
@@ -167,6 +174,7 @@
         </div>
         <div class="text_container">
           &nbsp;&nbsp;&nbsp;Banana
+          <button class="buy_button"><img src="../IMAGES/icons/buy.svg" /></button>
         </div>
       </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
@@ -176,6 +184,7 @@
         </div>
         <div class="text_container">
           &nbsp;&nbsp;&nbsp;Chilli
+          <button class="buy_button"><img src="../IMAGES/icons/buy.svg" /></button>
         </div>
       </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
@@ -185,15 +194,17 @@
         </div>
         <div class="text_container">
           &nbsp;&nbsp;&nbsp;Garlic
+          <button class="buy_button"><img src="../IMAGES/icons/buy.svg" /></button>
         </div>
       </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-      <div class="container space">
+      <div class="container">
         <div class="image_container">
           <img width=250 height=170 onclick="window.location='../IMAGES/ingrediants/onion.JPG'" src="../IMAGES/ingrediants/onion.JPG"/>
         </div>
         <div class="text_container">
           &nbsp;&nbsp;&nbsp;Onion
+          <button class="buy_button"><img src="../IMAGES/icons/buy.svg" /></button>
         </div>
       </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
@@ -208,66 +219,23 @@
         </div>
         <div class="text_container">
           &nbsp;&nbsp;&nbsp;Potato
+          <button class="buy_button"><img src="../IMAGES/icons/buy.svg" /></button>
         </div>
       </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-      <div class="container space">
+      <div class="container">
         <div class="image_container">
           <img width=250 height=170 onclick="window.location='../IMAGES/ingrediants/rice.jpg'" src="../IMAGES/ingrediants/rice.jpg"/>
         </div>
         <div class="text_container">
           &nbsp;&nbsp;&nbsp;Rice
+          <button class="buy_button"><img src="../IMAGES/icons/buy.svg" /></button>
         </div>
       </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-
+      
+    <br />
+    <br />
+    <br />
     </div>
   </body>
 </html>

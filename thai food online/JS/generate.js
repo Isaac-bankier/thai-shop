@@ -7,5 +7,8 @@ for (i = lowyear; i < currentyear+1; i++) {
   var opt = document.createElement('option');
   opt.innerHTML = i;
   opt.value = i;
+  if (i==currentyear-25){
+  	opt.selected = "selected";
+  }
   sel.appendChild(opt);
 }
