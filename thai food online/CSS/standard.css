@@ -1,3 +1,11 @@
+.block {
+  display: block;
+}
+
+.inline_block {
+  display: inline-block;
+}
+
 .left {
   float: left;
 }
@@ -20,4 +28,12 @@
 
 .scroll {
 	overflow: scroll;
+}
+
+.inline {
+  display: inline;
+}
+
+.bold {
+  font-weight: bold;
 }
