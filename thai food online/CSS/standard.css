@@ -1,39 +1,39 @@
 .block {
-  display: block;
+    display: block;
 }
 
 .inline_block {
-  display: inline-block;
+    display: inline-block;
 }
 
 .left {
-  float: left;
+    float: left;
 }
 
 .right {
-  float: right;
+    float: right;
 }
 
 .titanic {
-  float: none;
+    float: none;
 }
 
 .lower {
-  bottom: 10px;
+    bottom: 10px;
 }
 
 .space {
-  margin-right: 6%;
+    margin-right: 6%;
 }
 
 .scroll {
-	overflow: scroll;
+    overflow: scroll;
 }
 
 .inline {
-  display: inline;
+    display: inline;
 }
 
 .bold {
-  font-weight: bold;
+    font-weight: bold;
 }

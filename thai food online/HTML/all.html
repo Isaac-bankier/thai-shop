@@ -1,241 +1,269 @@
 <!doctype html>
-<html class="scroll">
-  <head>
+<html>
+
+<head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="../CSS/material_design.css">
     <link rel="stylesheet" type="text/css" href="../CSS/standard.css">
 
     <script src="../JS/scroll.js"></script>
 
-    <title>Thaifoon - Thai food delivered.</title>
-  </head>
+    <title>Thaifoon - Thai food delivered</title>
+</head>
 
-  <body class="scroll">
+<body>
     <div>
-      <div id="-1" class="middle">
-        <!-- Home and page title-->
-        <button class="menu" onclick="window.location='index.html'"><img src="../IMAGES/icons/home.svg"/></button>
-        &nbsp;&nbsp;&nbsp;&nbsp;Thaifoon - Thai food delivered. <!--TODO: fix alignment verticly--><!--TODO: fix spelling of todo-->
-      </div>
+        <div id="-1" class="middle">
+            <!-- Home and page title-->
+            <button class="menu" onclick="window.location='index.html'"><img src="../IMAGES/icons/home.svg"/></button> &nbsp;&nbsp;&nbsp;&nbsp;Thaifoon - Thai food delivered
+            <!--TODO: fix alignment verticly-->
+            <!--TODO: fix spelling of todo-->
+        </div>
 
-      <div id="0" class="tabs">
-        <!--tabs-->
-        <a class="tab" href="index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a class="tab" href="Products1.html">Curries</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a class="tab" href="Products2.html">Herbs and Spices</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a class="tab" href="Products3.html">Ingrediants</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a class="tab" href="all.html">All products</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a class="tab" href="feedback.html">Feedback</a>&nbsp;&nbsp;&nbsp;&nbsp;<!--no pun intended-->
-        <a class="tab" href="about.html">About us</a>
-      </div>
+        <div id="0" class="tabs">
+            <!--tabs-->
+            &nbsp;&nbsp;&nbsp;
+            <a class="tab" href="index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a class="tab" href="Products1.html">Curries</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a class="tab" href="Products2.html">Herbs and Spices</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a class="tab" href="Products3.html">Ingrediants</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a class="tab" href="all.html">All products</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a class="tab" href="feedback.html">Feedback</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <!--no pun intended-->
+            <a class="tab" href="about.html">About us</a>
+        </div>
     </div>
-    <br />
+    <div class="main scroll">
+        <!--everything else-->
+        <br />
+        <div id="1" class="container">
+            <!--image div-->
+            <div class="image_container">
+                <img width=250 height=170 onclick="window.location='../IMAGES/curry/Green.jpg'" src="../IMAGES/curry/Green.jpg" />
+            </div>
+            <div class="text_container">
+                &nbsp;&nbsp;&nbsp;Green Curry
+                <button class="buy_button" onClick="window.location='template.html?name=Green curry&img=../IMAGES/curry/Green.jpg'"><img src="../IMAGES/icons/buy.svg" /></button>
+                <br />&nbsp;&nbsp;&nbsp;0.00907 BTC
+            </div>
+        </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-    <div class="main"><!--everything else-->
+        <div class="container">
+            <div class="image_container">
+                <img width=250 height=170 onclick="window.location='../IMAGES/curry/red.jpg'" src="../IMAGES/curry/red.jpg" />
+            </div>
+            <div class="text_container">
+                &nbsp;&nbsp;&nbsp;Red Curry
+                <button class="buy_button" onClick="window.location='template.html?name=Red curry&img=../IMAGES/curry/red.jpg'"><img src="../IMAGES/icons/buy.svg" /></button>
+                <br />&nbsp;&nbsp;&nbsp;0.00907 BTC
+            </div>
+        </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-      <div id="1" class="container"><!--image div-->
-        <div class="image_container">
-          <img width=250 height=170 onclick="window.location='../IMAGES/curry/Green.jpg'" src="../IMAGES/curry/Green.jpg"/>
-        </div>
-        <div class="text_container">
-          &nbsp;&nbsp;&nbsp;Green curry
-          <button class="buy_button" onClick="window.location='template.html?name=Green curry&img=../IMAGES/curry/Green.jpg'"><img src="../IMAGES/icons/buy.svg" /></button>
-        </div>
-      </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="container">
+            <div class="image_container">
+                <img width=250 height=170 onclick="window.location='../IMAGES/curry/yellow.JPG'" src="../IMAGES/curry/yellow.JPG" />
+            </div>
+            <div class="text_container">
+                &nbsp;&nbsp;&nbsp;Yellow Curry
+                <button class="buy_button" onClick="window.location='template.html?name=Yellow curry&img=../IMAGES/curry/yellow.JPG'"><img src="../IMAGES/icons/buy.svg" /></button>
+                <br />&nbsp;&nbsp;&nbsp;0.00907 BTC
+            </div>
+        </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-      <div class="container">
-        <div class="image_container">
-          <img width=250 height=170 onclick="window.location='../IMAGES/curry/red.jpg'" src="../IMAGES/curry/red.jpg"/>
-        </div>
-        <div class="text_container">
-          &nbsp;&nbsp;&nbsp;Red curry
-          <button class="buy_button" onClick="window.location='template.html?name=Green curry&img=../IMAGES/curry/Green.jpg'"><img src="../IMAGES/icons/buy.svg" /></button>
-        </div>
-      </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="container">
+            <div class="image_container">
+                <img width=250 height=170 onclick="window.location='../IMAGES/curry/penang.jpg'" src="../IMAGES/curry/penang.jpg" />
+            </div>
+            <div class="text_container">
+                &nbsp;&nbsp;&nbsp;Penang
+                <button class="buy_button" onClick="window.location='template.html?name=Penang&img=../IMAGES/curry/penang.jpg'"><img src="../IMAGES/icons/buy.svg" /></button>
+                <br />&nbsp;&nbsp;&nbsp;0.00907 BTC
+            </div>
+        </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-      <div class="container">
-        <div class="image_container">
-          <img width=250 height=170 onclick="window.location='../IMAGES/curry/yellow.JPG'" src="../IMAGES/curry/yellow.JPG"/>
-        </div>
-        <div class="text_container">
-          &nbsp;&nbsp;&nbsp;Yellow curry
-          <button class="buy_button" onClick="window.location='template.html?name=Green curry&img=../IMAGES/curry/Green.jpg'"><img src="../IMAGES/icons/buy.svg" /></button>
-        </div>
-      </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+        <br />
+        <br />
+        <br />
 
-      <div class="container">
-        <div class="image_container">
-          <img width=250 height=170 onclick="window.location='../IMAGES/curry/penang.jpg'" src="../IMAGES/curry/penang.jpg"/>
-        </div>
-        <div class="text_container">
-          &nbsp;&nbsp;&nbsp;Penang
-          <button class="buy_button" onClick="window.location='template.html?name=Green curry&img=../IMAGES/curry/Green.jpg'"><img src="../IMAGES/icons/buy.svg" /></button>
-        </div>
-      </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div id="2" class="container">
+            <div class="image_container">
+                <img width=250 height=170 onclick="window.location='../IMAGES/curry/satay.jpg'" src="../IMAGES/curry/satay.jpg" />
+            </div>
+            <div class="text_container">
+                &nbsp;&nbsp;&nbsp;Satay Curry
+                <button class="buy_button" onClick="window.location='template.html?name=Satay curry&img=../IMAGES/curry/satay.jpg'"><img src="../IMAGES/icons/buy.svg" /></button>
+                <br />&nbsp;&nbsp;&nbsp;0.00907 BTC
+            </div>
+        </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-      <br />
-      <br />
-      <br />
-      <br />
+        <div class="container">
+            <div class="image_container">
+                <img width=250 height=170 onclick="window.location='../IMAGES/curry/noodle_soup.JPG'" src="../IMAGES/curry/noodle_soup.JPG" />
+            </div>
+            <div class="text_container">
+                &nbsp;&nbsp;&nbsp;Noodle Soup
+                <button class="buy_button" onClick="window.location='template.html?name=Noodle soup&img=../IMAGES/curry/noodle_soup.JPG'"><img src="../IMAGES/icons/buy.svg" /></button>
+                <br />&nbsp;&nbsp;&nbsp;0.00907 BTC
+            </div>
+        </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-      <div id="2" class="container">
-        <div class="image_container">
-          <img width=250 height=170 onclick="window.location='../IMAGES/curry/satay.jpg'" src="../IMAGES/curry/satay.jpg"/>
-        </div>
-        <div class="text_container">
-          &nbsp;&nbsp;&nbsp;Satay curry
-          <button class="buy_button" onClick="window.location='template.html?name=Green curry&img=../IMAGES/curry/Green.jpg'"><img src="../IMAGES/icons/buy.svg" /></button>
-        </div>
-      </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="container">
+            <!--image div-->
+            <div class="image_container">
+                <img width=250 height=170 onclick="window.location='../IMAGES/herbs/chilli_flakes.jpeg'" src="../IMAGES/herbs/chilli_flakes.jpeg" />
+            </div>
+            <div class="text_container">
+                &nbsp;&nbsp;&nbsp;Chilli Flakes
+                <button class="buy_button" onClick="window.location='template.html?name=Chilli flakes&img=../IMAGES/herbs/chilli_flakes.jpeg'"><img src="../IMAGES/icons/buy.svg" /></button>
+                <br />&nbsp;&nbsp;&nbsp;0.00907 BTC
+            </div>
+        </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-      <div class="container">
-        <div class="image_container">
-          <img width=250 height=170 onclick="window.location='../IMAGES/curry/noodle soup.JPG'" src="../IMAGES/curry/noodle soup.JPG"/>
-        </div>
-        <div class="text_container">
-          &nbsp;&nbsp;&nbsp;Noodle soup
-          <button class="buy_button" onClick="window.location='template.html?name=Green curry&img=../IMAGES/curry/Green.jpg'"><img src="../IMAGES/icons/buy.svg" /></button>
-        </div>
-      </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="container">
+            <div class="image_container">
+                <img width=250 height=170 onclick="window.location='../IMAGES/herbs/chilli_powder.jpeg'" src="../IMAGES/herbs/chilli_powder.jpeg" />
+            </div>
+            <div class="text_container">
+                &nbsp;&nbsp;&nbsp;Chilli Powder
+                <button class="buy_button" onClick="window.location='template.html?name=Chilli powder&img=../IMAGES/herbs/chilli_powder.jpeg'"><img src="../IMAGES/icons/buy.svg" /></button>
+                <br />&nbsp;&nbsp;&nbsp;0.00907 BTC
+            </div>
+        </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-      <div class="container"><!--image div-->
-        <div class="image_container">
-          <img width=250 height=170 onclick="window.location='../IMAGES/curry/Green.jpg'" src="../IMAGES/curry/Green.jpg"/>
-        </div>
-        <div class="text_container">
-          &nbsp;&nbsp;&nbsp;Green curry
-          <button class="buy_button" onClick="window.location='template.html?name=Green curry&img=../IMAGES/curry/Green.jpg'"><img src="../IMAGES/icons/buy.svg" /></button>
-        </div>
-      </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+        <br />
+        <br />
+        <br />
 
-      <div class="container">
-        <div class="image_container">
-          <img width=250 height=170 onclick="window.location='../IMAGES/curry/red.jpg'" src="../IMAGES/curry/red.jpg"/>
-        </div>
-        <div class="text_container">
-          &nbsp;&nbsp;&nbsp;Red curry
-          <button class="buy_button" onClick="window.location='template.html?name=Green curry&img=../IMAGES/curry/Green.jpg'"><img src="../IMAGES/icons/buy.svg" /></button>
-        </div>
-      </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div id="3" class="container">
+            <div class="image_container">
+                <img width=250 height=170 onclick="window.location='../IMAGES/herbs/thyme.jpeg'" src="../IMAGES/herbs/thyme.jpeg" />
+            </div>
+            <div class="text_container">
+                &nbsp;&nbsp;&nbsp;Thyme
+                <button class="buy_button" onClick="window.location='template.html?name=Thyme&img=../IMAGES/herbs/thyme.jpeg'"><img src="../IMAGES/icons/buy.svg" /></button>
+                <br />&nbsp;&nbsp;&nbsp;0.00907 BTC
+            </div>
+        </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-      <br />
-      <br />
-      <br />
-      <br />
+        <div class="container">
+            <div class="image_container">
+                <img width=250 height=170 onclick="window.location='../IMAGES/herbs/yellow_powder.jpeg'" src="../IMAGES/herbs/yellow_powder.jpeg" />
+            </div>
+            <div class="text_container">
+                &nbsp;&nbsp;&nbsp;Yellow Curry Powder
+                <button class="buy_button" onClick="window.location='template.html?name=Yellow powder&img=../IMAGES/herbs/yellow_powder.jpeg'"><img src="../IMAGES/icons/buy.svg" /></button>
+                <br />&nbsp;&nbsp;&nbsp;0.00907 BTC
+            </div>
+        </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-      <div id="3" class="container">
-        <div class="image_container">
-          <img width=250 height=170 onclick="window.location='../IMAGES/curry/yellow.JPG'" src="../IMAGES/curry/yellow.JPG"/>
-        </div>
-        <div class="text_container">
-          &nbsp;&nbsp;&nbsp;Yellow curry
-          <button class="buy_button" onClick="window.location='template.html?name=Green curry&img=../IMAGES/curry/Green.jpg'"><img src="../IMAGES/icons/buy.svg" /></button>
-        </div>
-      </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="container">
+            <div class="image_container">
+                <img width=250 height=170 onclick="window.location='../IMAGES/herbs/red_powder.jpg'" src="../IMAGES/herbs/red_powder.jpg" />
+            </div>
+            <div class="text_container">
+                &nbsp;&nbsp;&nbsp;Red Curry Powder
+                <button class="buy_button" onClick="window.location='template.html?name=Red powder&img=../IMAGES/herbs/red_powder.jpg'"><img src="../IMAGES/icons/buy.svg" /></button>
+                <br />&nbsp;&nbsp;&nbsp;0.00907 BTC
+            </div>
+        </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-      <div class="container">
-        <div class="image_container">
-          <img width=250 height=170 onclick="window.location='../IMAGES/curry/penang.jpg'" src="../IMAGES/curry/penang.jpg"/>
-        </div>
-        <div class="text_container">
-          &nbsp;&nbsp;&nbsp;Penang
-          <button class="buy_button" onClick="window.location='template.html?name=Green curry&img=../IMAGES/curry/Green.jpg'"><img src="../IMAGES/icons/buy.svg" /></button>
-        </div>
-      </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="container">
+            <div class="image_container">
+                <img width=250 height=170 onclick="window.location='../IMAGES/herbs/green_powder.jpeg'" src="../IMAGES/herbs/green_powder.jpeg" />
+            </div>
+            <div class="text_container">
+                &nbsp;&nbsp;&nbsp;Green Curry Powder
+                <button class="buy_button" onClick="window.location='template.html?name=Green powder&img=../IMAGES/herbs/green_powder.jpeg'"><img src="../IMAGES/icons/buy.svg" /></button>
+                <br />&nbsp;&nbsp;&nbsp;0.00907 BTC
+            </div>
+        </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-      <div class="container">
-        <div class="image_container">
-          <img width=250 height=170 onclick="window.location='../IMAGES/herbs/red_powder.jpg'" src="../IMAGES/herbs/red_powder.jpg"/>
-        </div>
-        <div class="text_container">
-          &nbsp;&nbsp;&nbsp;Red curry powder
-          <button class="buy_button" onClick="window.location='template.html?name=Green curry&img=../IMAGES/curry/Green.jpg'"><img src="../IMAGES/icons/buy.svg" /></button>
-        </div>
-      </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+        <br />
+        <br />
+        <br />
 
-      <div class="container">
-        <div class="image_container">
-          <img width=250 height=170 onclick="window.location='../IMAGES/herbs/green_powder.jpeg'" src="../IMAGES/herbs/green_powder.jpeg"/>
-        </div>
-        <div class="text_container">
-          &nbsp;&nbsp;&nbsp;Green curry powder
-          <button class="buy_button" onClick="window.location='template.html?name=Green curry&img=../IMAGES/curry/Green.jpg'"><img src="../IMAGES/icons/buy.svg" /></button>
-        </div>
-      </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div id="4" class="container">
+            <!--image div-->
+            <div class="image_container">
+                <img width=250 height=170 onclick="window.location='../IMAGES/ingrediants/banana.jpg'" src="../IMAGES/ingrediants/banana.jpg" />
+            </div>
+            <div class="text_container">
+                &nbsp;&nbsp;&nbsp;Banana
+                <button class="buy_button" onClick="window.location='template.html?name=Banana&img=../IMAGES/ingrediants/banana.jpg'"><img src="../IMAGES/icons/buy.svg" /></button>
+                <br />&nbsp;&nbsp;&nbsp;0.00907 BTC
+            </div>
+        </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-      <br />
-      <br />
-      <br />
-      <br />
+        <div class="container">
+            <div class="image_container">
+                <img width=250 height=170 onclick="window.location='../IMAGES/ingrediants/chilli.jpg'" src="../IMAGES/ingrediants/chilli.jpg" />
+            </div>
+            <div class="text_container">
+                &nbsp;&nbsp;&nbsp;Chilli
+                <button class="buy_button" onClick="window.location='template.html?name=Chilli&img=../IMAGES/ingrediants/chilli.jpg'"><img src="../IMAGES/icons/buy.svg" /></button>
+                <br />&nbsp;&nbsp;&nbsp;0.00907 BTC
+            </div>
+        </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-      <div id="4" class="container"><!--image div-->
-        <div class="image_container">
-          <img width=250 height=170 onclick="window.location='../IMAGES/ingrediants/banana.jpg'" src="../IMAGES/ingrediants/banana.jpg"/>
-        </div>
-        <div class="text_container">
-          &nbsp;&nbsp;&nbsp;Banana
-          <button class="buy_button" onClick="window.location='template.html?name=Green curry&img=../IMAGES/curry/Green.jpg'"><img src="../IMAGES/icons/buy.svg" /></button>
-        </div>
-      </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="container">
+            <div class="image_container">
+                <img width=250 height=170 onclick="window.location='../IMAGES/ingrediants/garlic.JPG'" src="../IMAGES/ingrediants/garlic.JPG" />
+            </div>
+            <div class="text_container">
+                &nbsp;&nbsp;&nbsp;Garlic
+                <button class="buy_button" onClick="window.location='template.html?name=Garlic&img=../IMAGES/ingrediants/garlic.JPG'"><img src="../IMAGES/icons/buy.svg" /></button>
+                <br />&nbsp;&nbsp;&nbsp;0.00907 BTC
+            </div>
+        </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-      <div class="container">
-        <div class="image_container">
-          <img width=250 height=170 onclick="window.location='../IMAGES/ingrediants/chilli.jpg'" src="../IMAGES/ingrediants/chilli.jpg"/>
-        </div>
-        <div class="text_container">
-          &nbsp;&nbsp;&nbsp;Chilli
-          <button class="buy_button" onClick="window.location='template.html?name=Green curry&img=../IMAGES/curry/Green.jpg'"><img src="../IMAGES/icons/buy.svg" /></button>
-        </div>
-      </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="container">
+            <div class="image_container">
+                <img width=250 height=170 onclick="window.location='../IMAGES/ingrediants/onion.JPG'" src="../IMAGES/ingrediants/onion.JPG" />
+            </div>
+            <div class="text_container">
+                &nbsp;&nbsp;&nbsp;Onion
+                <button class="buy_button" onClick="window.location='template.html?name=Onion&img=../IMAGES/ingrediants/onion.JPG'"><img src="../IMAGES/icons/buy.svg" /></button>
+                <br />&nbsp;&nbsp;&nbsp;0.00907 BTC
+            </div>
+        </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-      <div class="container">
-        <div class="image_container">
-          <img width=250 height=170 onclick="window.location='../IMAGES/ingrediants/garlic.JPG'" src="../IMAGES/ingrediants/garlic.JPG"/>
-        </div>
-        <div class="text_container">
-          &nbsp;&nbsp;&nbsp;Garlic
-          <button class="buy_button" onClick="window.location='template.html?name=Green curry&img=../IMAGES/curry/Green.jpg'"><img src="../IMAGES/icons/buy.svg" /></button>
-        </div>
-      </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+        <br />
+        <br />
+        <br />
 
-      <div class="container">
-        <div class="image_container">
-          <img width=250 height=170 onclick="window.location='../IMAGES/ingrediants/onion.JPG'" src="../IMAGES/ingrediants/onion.JPG"/>
-        </div>
-        <div class="text_container">
-          &nbsp;&nbsp;&nbsp;Onion
-          <button class="buy_button" onClick="window.location='template.html?name=Green curry&img=../IMAGES/curry/Green.jpg'"><img src="../IMAGES/icons/buy.svg" /></button>
-        </div>
-      </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div id="5" class="container">
+            <div class="image_container">
+                <img width=250 height=170 onclick="window.location='../IMAGES/ingrediants/potato.jpg'" src="../IMAGES/ingrediants/potato.jpg" />
+            </div>
+            <div class="text_container">
+                &nbsp;&nbsp;&nbsp;Potato
+                <button class="buy_button" onClick="window.location='template.html?name=Potato&img=../IMAGES/ingrediants/potato.jpg'"><img src="../IMAGES/icons/buy.svg" /></button>
+                <br />&nbsp;&nbsp;&nbsp;0.00907 BTC
+            </div>
+        </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-      <br />
-      <br />
-      <br />
-      <br />
+        <div class="container">
+            <div class="image_container">
+                <img width=250 height=170 onclick="window.location='../IMAGES/ingrediants/rice.jpg'" src="../IMAGES/ingrediants/rice.jpg" />
+            </div>
+            <div class="text_container">
+                &nbsp;&nbsp;&nbsp;Rice
+                <button class="buy_button" onClick="window.location='template.html?name=Rice&img=../IMAGES/ingrediants/rice.jpg'"><img src="../IMAGES/icons/buy.svg" /></button>
+                <br />&nbsp;&nbsp;&nbsp;0.00907 BTC
+            </div>
+        </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-      <div id="5" class="container">
-        <div class="image_container">
-          <img width=250 height=170 onclick="window.location='../IMAGES/ingrediants/potato.jpg'" src="../IMAGES/ingrediants/potato.jpg"/>
-        </div>
-        <div class="text_container">
-          &nbsp;&nbsp;&nbsp;Potato
-          <button class="buy_button" onClick="window.location='template.html?name=Green curry&img=../IMAGES/curry/Green.jpg'"><img src="../IMAGES/icons/buy.svg" /></button>
-        </div>
-      </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-      <div class="container">
-        <div class="image_container">
-          <img width=250 height=170 onclick="window.location='../IMAGES/ingrediants/rice.jpg'" src="../IMAGES/ingrediants/rice.jpg"/>
-        </div>
-        <div class="text_container">
-          &nbsp;&nbsp;&nbsp;Rice
-          <button class="buy_button" onClick="window.location='template.html?name=Green curry&img=../IMAGES/curry/Green.jpg'"><img src="../IMAGES/icons/buy.svg" /></button>
-        </div>
-      </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-    <br />
-    <br />
-    <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
     </div>
-  </body>
+</body>
+
 </html>

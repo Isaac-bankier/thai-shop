@@ -1,43 +1,55 @@
 <!doctype html>
 <html>
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="../CSS/material_design.css">
-    <title>Thaifoon - Feedback.</title>
-  </head>
+    <link rel="stylesheet" type="text/css" href="../CSS/standard.css">
+    <title>Thaifoon - Feedback</title>
+</head>
 
-  <body>
+<body>
     <div>
-      <div class="middle">
-        <!-- Home and page title-->
-        <button class="menu" onclick="window.location='index.html'"><img src="../IMAGES/icons/home.svg"/></button>
-        &nbsp;&nbsp;&nbsp;&nbsp;Thaifoon - Feedback. <!--TODO: fix alignment verticly--><!--TODO: fix spelling of todo-->
-      </div>
+        <div class="middle">
+            <!-- Home and page title-->
+            <button class="menu" onclick="window.location='index.html'"><img src="../IMAGES/icons/home.svg"/></button> &nbsp;&nbsp;&nbsp;&nbsp;Thaifoon - Feedback
+            <!--TODO: fix alignment verticly-->
+            <!--TODO: fix spelling of todo-->
+        </div>
 
-      <div class="tabs">
-        <!--tabs-->
-        <a class="tab" href="index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a class="tab" href="Products1.html">Curries</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a class="tab" href="Products2.html">Herbs and Spices</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a class="tab" href="Products3.html">Ingrediants</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a class="tab" href="all.html">All products</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a class="tab" href="feedback.html">Feedback</a>&nbsp;&nbsp;&nbsp;&nbsp;<!--no pun intended-->
-        <a class="tab" href="about.html">About us</a>
-      </div>
+        <div class="tabs">
+            <!--tabs-->&nbsp;&nbsp;&nbsp;
+            <a class="tab" href="index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a class="tab" href="Products1.html">Curries</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a class="tab" href="Products2.html">Herbs and Spices</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a class="tab" href="Products3.html">Ingrediants</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a class="tab" href="all.html">All products</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a class="tab" href="feedback.html">Feedback</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <!--no pun intended-->
+            <a class="tab" href="about.html">About us</a>
+        </div>
     </div>
-    <br />
 
-    <div class="main text"><!--everything else-->
-    	<form >
-        	First name:<br />
-			<input name="First_name" class="feedback" type="text" /><br /><br />
-           Last name:<br />
-           <input name="Last_name" class="feedback" type="text" /><br /><br />
-
-           What is your gender?&nbsp;&nbsp;<input type="checkbox" name="Male" value="true">Male</input>&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="Female" value="true"> Female</input><br /><br />
-
-           Date of birth:<br />
-           <select name="day" id="day">
+    <div class="main text scroll">
+        <!--everything else-->
+        <br />
+        <form>
+            <br />
+            <div>
+                <input name="First_name" class="feedback" type="text" />
+                <lable class="label">First name:</lable>
+            </div>
+            <br />
+            <div>
+                <input name="Last_name" class="feedback" type="text" />
+                <lable class="label">Last name:</lable>
+            </div>
+            <br />
+            <div class="gender">
+                <!--Presenting my new standard of defining gender.-->Gender:&nbsp;&nbsp;<input type="checkbox" name="Male" value="true">Male</input>&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="Female" value="true"> Female</input>
+            </div>
+            <br /><br /> Date of birth:&nbsp;&nbsp;
+            <select class="dob" name="day" id="day">
              <option value="1">1</option>
              <option value="2">2</option>
              <option value="3">3</option>
@@ -71,7 +83,7 @@
              <option value="31">31</option>
            </select>
 
-           <select name="month" id="month">
+            <select class="dob" name="month" id="month">
              <option value="1">1</option>
              <option value="2">2</option>
              <option value="3">3</option>
@@ -86,27 +98,90 @@
              <option value="12">12</option>
            </select>
 
-          <select name="year" id="year">
+            <select class="dob" name="year" id="year">
           </select>
-         	<br />
-          <br />
-          What is your favourite curry?<br />
-            <input type="radio" name="RadioGroup1" value="Red curry" id="RadioGroup1_0">Red curry</input>
-          <br />
-            <input type="radio" name="RadioGroup1" value="Green curry" id="RadioGroup1_1">Green curry</input>
-          <br />
-          <br />
+            <br />
+            <br /> What is your favourite curry:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+            <div class="aligned_boxes">
+                <input type="radio" name="RadioGroup1" value="Red Curry" id="RadioGroup1_0">Red Curry</input>
+                <br />
+                <input type="radio" name="RadioGroup1" value="Green Curry" id="RadioGroup1_1">Green Curry</input>
+                <br />
+                <input type="radio" name="RadioGroup1" value="Yellow Curry" id="RadioGroup1_2">Yellow Curry</input>
+                <br />
+                <input type="radio" name="RadioGroup1" value="Penang" id="RadioGroup1_3">Penang</input>
+                <br />
+                <input type="radio" name="RadioGroup1" value="Satay Curry" id="RadioGroup1_4">Satay Curry</input>
+                <br />
+                <input type="radio" name="RadioGroup1" value="Noodle Soup" id="RadioGroup1_5">Noodle Soup</input>
+            </div>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br /> What was your order:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+            <div class="aligned_boxes">
+                <input type="checkbox" name="curry1" value="Red"> Red Curry</input><br />
+                <input type="checkbox" name="curry1" value="Green"> Green Curry</input><br />
+                <input type="checkbox" name="curry1" value="Red"> Yellow Curry</input><br />
+                <input type="checkbox" name="curry1" value="Green"> Penang</input><br />
+                <input type="checkbox" name="curry1" value="Red"> Satay Curry</input><br />
+                <input type="checkbox" name="curry1" value="Green"> Noodle Soup</input><br />
+                <input type="checkbox" name="curry1" value="Red"> Red Curry</input><br />
+                <input type="checkbox" name="curry1" value="Green"> Green Curry</input><br />
+                <input type="checkbox" name="curry1" value="Red"> Red Curry</input><br />
+                <input type="checkbox" name="curry1" value="Green"> Green Curry</input><br />
+                <input type="checkbox" name="curry1" value="Red"> Red Curry</input><br />
+                <input type="checkbox" name="curry1" value="Green"> Green Curry</input><br />
+                <input type="checkbox" name="curry1" value="Red"> Red Curry</input><br />
+                <input type="checkbox" name="curry1" value="Green"> Green Curry</input><br />
+                <input type="checkbox" name="curry1" value="Red"> Red Curry</input><br />
+                <input type="checkbox" name="curry1" value="Green"> Green Curry</input><br />
+                <input type="checkbox" name="curry1" value="Red"> Red Curry</input><br />
+                <input type="checkbox" name="curry1" value="Green"> Green Curry</input><br />
+            </div>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <input type="submit" value="Submit" /><br /><br />
+            <input type="reset" value="Reset" />
 
-          What was your order?<br />
-          <input type="checkbox" name="curry1" value="Red"> Red curry</input><br />
-          <input type="checkbox" name="curry1" value="Green"> Green curry</input><br />
-          
-          <input type="submit" />
-          <input type="reset" />
-
-		</form>
+        </form>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
 
     </div>
     <script src="../JS/generate.js"></script>
-  </body>
+</body>
+
 </html>

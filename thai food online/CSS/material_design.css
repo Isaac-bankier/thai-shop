@@ -1,97 +1,109 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("../FONTS/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../FONTS/Roboto-Bold.ttf");
+    font-weight: bold;
+}
+
 .productImg {
-	padding-right: 5%
+    padding-right: 5%;
+    position: relative;
 }
 
 .name {
-  background-color: #0A69B7;
-  width: 100%;
-  height: 30px;
-  text-align: right;
-  line-height: 30px;
-  font-weight: bold;
+    background-color: #2196F3;
+    width: 100%;
+    padding-left: 1%;
+    color: white;
 }
 
 .buy_button {
-  border: none;
-  margin: none;
-  border-radius: 0px;
-  border: 0;
-  height: 35px;
-  width: 45px;
-  background-color: white;
-  transition: 0.25s;
-  float: right;
-  opacity: 0;
-  margin:6px;
+    border: none;
+    margin: none;
+    border-radius: 0px;
+    border: 0;
+    height: 35px;
+    width: 45px;
+    background-color: white;
+    transition: 0.25s;
+    float: right;
+    opacity: 0;
+    margin: 6px;
 }
 
 .container:hover .buy_button {
-	opacity: 1;
-	}
+    opacity: 1;
+}
 
 .buy_button:hover {
-  background-color: #DDDDDE;
-
+    background-color: #DDDDDE;
 }
 
 .text {
-  color: black;
+    color: black;
 }
 
 .middle {
-  background-color: #2196F3;
-  width: 100%;
-  height: 60px;
-  line-height: 30px;
-  font-weight: bold;
-  font-size: 30px;
+    background-color: #2196F3;
+    width: 100%;
+    height: 60px;
+    line-height: 30px;
+    font-weight: normal;
+    font-size: 30px;
 }
 
 .tabs {
-  background-color: #2196F3;
-  width: 100%;
-  height: 40px;
-  line-height: 40px;
-  font-weight: bold;
+    background-color: #2196F3;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-weight: bold;
+    z-index: 555;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.4);
+    position: relative;
 }
 
 .main {
-  height: 100%;
-  width: 100%;
-  text-align: center;
+    height: 100%;
+    width: 100%;
+    text-align: center;
 }
 
 .container {
-  width: 270px;
-  height: 215px;
-  overflow: hidden;
-  display: inline-block;
-  transition-duration: 0.5s;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 270px;
+    height: 215px;
+    overflow: hidden;
+    display: inline-block;
+    transition-duration: 0.5s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .container:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
-  height: 240px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+    height: 240px;
 }
 
 .image_container {
-  border: 10px solid #2196F3;
-  background-color: #2196F3;
+    border: 10px solid #2196F3;
+    background-color: #2196F3;
 }
 
-.text_container{
-  width: 100%;
-  height: 100%;
-  text-align: left;
-  background-color: #0A69B7;
+.text_container {
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    background-color: #0A69B7;
 }
 
 .tab {
-  border-bottom: 3px solid transparent;
-  transition: all ease-in-out 0.35s;
-  text-decoration: none;
-  color: white;
+    border-bottom: 3px solid transparent;
+    transition: all ease-in-out 0.35s;
+    text-decoration: none;
+    color: white;
 }
 
 .tab:hover {
@@ -103,89 +115,211 @@
 }
 
 .menu {
-  border: none;
-  margin: none;
-  border-radius: 0px;
-  border: 0;
-  height: 50px;
-  width: 70px;
-  background-color: white;
-  transition: 0.25s;
+    border: none;
+    margin: none;
+    border-radius: 0px;
+    border: 0;
+    height: 50px;
+    width: 70px;
+    background-color: white;
+    transition: 0.25s;
 }
 
 .menu:hover {
-  border-radius: 0px;
-  border: 0;
-  height: 50px;
-  width: 70px;
-  background-color: #DDDDDE;
-
+    border-radius: 0px;
+    border: 0;
+    height: 50px;
+    width: 70px;
+    background-color: #DDDDDE;
 }
 
 .raised_div {
-  z-index: 5;
-  width: 6%;
-  height: 100%;
-  margin: 0;
-  border: 0;
-  overflow: hidden;
-  position: relative;
-  float: right;
+    z-index: 5;
+    width: 6%;
+    height: 100%;
+    margin: 0;
+    border: 0;
+    overflow: hidden;
+    position: relative;
+    float: right;
 }
 
 .nav {
-  border: none;
-  margin: none;
-  border-radius: 100%;
-  border: 0;
-  height: 50px;
-  width: 50px;
-  background-color: #0b8bf4;
-  transition: 0.25s;
-  text-align: center;
-  transition-duration: 0.5s;
-  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
-  position: fixed;
-  margin-right: 10px;
+    border: none;
+    margin: none;
+    border-radius: 100%;
+    border: 0;
+    height: 50px;
+    width: 50px;
+    background-color: #0b8bf4;
+    transition: 0.25s;
+    text-align: center;
+    transition-duration: 0.5s;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    margin-right: 10px;
 }
 
 .nav:hover {
-  box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.4);
-
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.4);
 }
 
 .bottom_banner {
-  background-color: #2196F3;
-  width: 100%;
-  height: 80px;
-  line-height: 40px;
-  font-weight: bold;
-	float: left;
+    background-color: #2196F3;
+    width: 100%;
+    height: 80px;
+    line-height: 40px;
+    font-weight: bold;
+    float: left;
 }
 
 .bottom_wrap {
-  width: 100%;
-  height: 80px;
-  line-height: 40px;
-  font-weight: bold;
-	float: left;
-	position: fixed;
-  bottom: 0;
+    width: 100%;
+    height: 80px;
+    line-height: 40px;
+    font-weight: bold;
+    float: left;
+    position: fixed;
+    bottom: 0;
 }
 
 .product_desription {
-	word-wrap: break-word;
-	width: 375px;
+    word-wrap: break-word;
+    width: 375px;
 }
 
 html, body {
-  overflow: hidden;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  border: 0;
-  background-color: #EEEEEF;
-  font-family: "Verdana";
-  color: white;
-  scroll-behavior: smooth;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border: 0;
+    background-color: #EEEEEF;
+    font-family: "Roboto";
+    color: white;
+    scroll-behavior: smooth;
+}
+
+.feedback {
+    border: 0px;
+    border-bottom: 1px solid #DBDBDB;
+    background-color: #EEEEEF;
+    transition-duration: 0.3s;
+}
+
+.feedback:focus {
+    border-bottom: 1px solid #2196F3;
+}
+
+.label {
+    margin-left: -20%;
+    margin-right: 8%;
+    transition-duration: 0.3s;
+}
+
+.feedback:focus+.label {
+    color: #3AA1F2;
+}
+
+.gender {
+    margin-left: -4.5%;
+}
+
+.dob {
+    border-radius: 0px;
+    border: 1px solid #DBDBDB;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: #dddde3;
+}
+
+.aligned_boxes {
+    float: right;
+    padding-right: 50%;
+    text-align: left;
+    display: inline;
+}
+
+.pay_form {
+    border: 0px;
+    border-bottom: 1px solid #DBDBDB;
+    background-color: #EEEEEF;
+    transition-duration: 0.3s;
+}
+
+.pay_form:focus {
+    color: #3AA1F2;
+    border-bottom: 1px solid #2196F3;
+}
+
+.purchase_button {
+    border: none;
+    margin: none;
+    border-radius: 0px;
+    border: 0;
+    background-color: white;
+    transition: 0.25s;
+    margin: 6px;
+}
+
+.purchase_button:hover {
+    background-color: #DDDDDE;
+}
+
+.alert {
+    z-index: -666;
+    opacity: 0;
+    display: none;
+}
+
+.alert2 {
+    z-index: 666;
+    animation-duration: 0.3s;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.9;
+    position: absolute;
+    display: inline-block;
+}
+
+.ialert2 {
+    z-index: 777;
+    display: inline-block;
+    background-color: white;
+    width: 50%;
+    height: 20%;
+    color: black;
+    opacity: 100;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 30%;
+    width: 50%;
+    margin: -15% 0 0 -25%;
+    padding: 20px;
+    border: 1px solid #888;
+}
+
+.ialert {
+    z-index: -666;
+    display: none;
+}
+
+.confirm_button {
+    border: none;
+    margin: none;
+    border-radius: 0px;
+    border: 0;
+    transition: 0.25s;
+    margin: 6px;
+    position: relative;
+    display: block;
+    background-color: #EEEEEF;
+    padding: 3px;
+}
+
+.confirm_button:hover {
+    background-color: #DDDDDE;
 }
